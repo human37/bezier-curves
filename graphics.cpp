@@ -678,7 +678,7 @@ void InitializeMyStuff()
 
 int main(int argc, char **argv)
 {
-	glutInitWindowSize(700, 500);
+	glutInitWindowSize(1200, 900);
 	glutInit(&argc, argv);
 
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
@@ -691,7 +691,7 @@ int main(int argc, char **argv)
 	} 
 	else 
 	{
-		glutCreateWindow("Shapes");
+		glutCreateWindow("bezier");
 	}
 
 	glutDisplayFunc(display);
